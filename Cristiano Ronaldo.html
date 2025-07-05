@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/proiect%203.html -->
+<html lang="ro"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristiano Ronaldo</title>
+  <link rel="stylesheet" href="./Cristiano Ronaldo_files/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cristiano Ronaldo</h1>
+    <img src="./Cristiano Ronaldo_files/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo">
+    <section>
+      <h2>Informații generale</h2>
+      <ul>
+        <li><strong>Nume complet:</strong> Cristiano Ronaldo dos Santos Aveiro</li>
+        <li><strong>Data nașterii:</strong> 5 februarie 1985</li>
+        <li><strong>Naționalitate:</strong> Portughez</li>
+        <li><strong>Poziție:</strong> Atacant</li>
+        <li><strong>Club actual:</strong> Al Nassr FC</li>
+        <li><strong>Număr tricou:</strong> 7</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Carieră de club</h2>
+      <table>
+        <thead>
+          <tr><th>Club</th><th>Perioadă</th><th>Meciuri</th><th>Goluri</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sporting CP</td><td>2002–2003</td><td>31</td><td>5</td></tr>
+          <tr><td>Manchester United</td><td>2003–2009</td><td>292</td><td>118</td></tr>
+          <tr><td>Real Madrid</td><td>2009–2018</td><td>438</td><td>450</td></tr>
+          <tr><td>Juventus</td><td>2018–2021</td><td>134</td><td>101</td></tr>
+          <tr><td>Manchester United</td><td>2021–2022</td><td>54</td><td>27</td></tr>
+          <tr><td>Al Nassr</td><td>2023–prezent</td><td>60+</td><td>50+</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Trofee importante</h2>
+      <ul>
+        <li>5x Balonul de Aur</li>
+        <li>5x UEFA Champions League</li>
+        <li>Euro 2016 (Portugalia)</li>
+        <li>UEFA Nations League 2019</li>
+        <li>Peste 850 goluri marcate</li>
+      </ul>
+    </section>
+    <blockquote>
+      “Your love makes me strong, your hate makes me unstoppable.”
+    </blockquote>
+  </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
